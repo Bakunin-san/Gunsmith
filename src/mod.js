@@ -196,8 +196,6 @@ class Mod {
 		addToFilter("5dcbd6b46ec07c0c4347a564", "5649a2464bdc2d91118b45a8", 3); //Black
 		//UM3 to M45 CUSTOM
 		addToFilter("5f36a0e5fbf956000b716b65", "5a7b4900e899ef197b331a2a", 7);
-		//Picatinny riser to SR-1MP 4x mount CUSTOM
-		addToFilter("5a27bad7c4a282000b15184b", "5c064c400db834001d23f468", 4);
 		//ACRO to micro mounts CUSTOM
 		addToFilter("616554fe50224f204c1da2aa", "616442e4faa1272e43152193", 0); //H2
 		addToFilter("58d39d3d86f77445bb794ae7", "616442e4faa1272e43152193", 0); //Standard
@@ -545,19 +543,6 @@ class Mod {
 				}
 			}
 		});
-		//AR barrels accuracy modifications //CUSTOM
-		//260mm barrel
-		items["55d35ee94bdc2d61338b4568"]._props.CenterOfImpact = 0.05;
-		items["55d35ee94bdc2d61338b4568"]._props.DeviationCurve = 1.4;
-		items["55d35ee94bdc2d61338b4568"]._props.DeviationMax = 22;
-		//370mm barrel
-		items["55d3632e4bdc2d972f8b4569"]._props.CenterOfImpact = 0.04;
-		items["55d3632e4bdc2d972f8b4569"]._props.DeviationCurve = 1.35;
-		items["55d3632e4bdc2d972f8b4569"]._props.DeviationMax = 21;
-		//18 inch barrel
-		items["5d440b93a4b9364276578d4b"]._props.CenterOfImpact = 0.03;
-		items["5d440b93a4b9364276578d4b"]._props.DeviationCurve = 1.35;
-		items["5d440b93a4b9364276578d4b"]._props.DeviationMax = 22;
 		//vector height
 		items["5fc3f2d5900b1d5091531e57"]._props.Height = 1;
 		items["5fb64bc92b1b027b1f50bcf2"]._props.Height = 1;
