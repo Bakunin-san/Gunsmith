@@ -1,0 +1,8 @@
+{
+    "name": "Gunsmith",
+    "version": "1.0.0",
+    "main": "src/mod.js",
+    "license": "CC",
+    "author": "Alex",
+    "akiVersion": "3.1.1"
+}
